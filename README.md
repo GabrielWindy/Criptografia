@@ -5,7 +5,10 @@ Encrypt and or decrypt files easily.
 ## Questions:
 
 ### Is it safe?
-I dont know for sure, but I think it is. Just get a long key.
+Nuh uh. Use this at your own risk. Im a begginer at programming and you will most likely get hacked if you use it.
+
+### Do I plan on making it usable and better?
+Of course yes! I imagine it would make me a better programmer. If you find any issues, you are more than welcome to report them!
 
 ### How does it works?
 It is just a XOR cypher. Im gonna add more stuff out later.
