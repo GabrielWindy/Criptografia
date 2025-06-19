@@ -27,7 +27,7 @@ int main(int argc, const char** argv)
 	if (argc < 4)
 	{
 		std::cout << "Usage: " << argv[0] << " <file> <keyString> <mode> [output location]" << std::endl;	// Tells the user what went wrong
-		return 0;																					// so I can return 0
+		return 0;																							// so I can return 0
 	}
 	
 	// Key Variables
@@ -46,7 +46,7 @@ int main(int argc, const char** argv)
 	}
 
 	// Modes
-	if (mode == "xor_crypt")
+	if (mode == "xor_crypt" || mode == "xor_decrypt")	// Decrypt is a placebo, because the algorithm works both ways, so I wont bother making separate functions.
 	{
 		return encryptFile(path, outputPath, key);
 	}
