@@ -2,6 +2,17 @@
 
 Encrypt and or decrypt files easily.
 
+## Usage:
+criptografia.exe < file > < keyString > < mode > [ output location ]
+
+**file**: Input file.
+**keyString**: Key.
+**mode**: The mode to encrypt the input file.
+**output location**: Place to put the output of the encryption.
+
+### Modes:
+- xor_crypt
+- xor_decrypt_
 ## Questions:
 
 ### Is it safe?
